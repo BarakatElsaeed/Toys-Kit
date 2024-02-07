@@ -9,7 +9,6 @@ import {
   faPhone,
   faClock,
   faEnvelope,
-  
 } from "@fortawesome/free-solid-svg-icons";
 import "./footer.scss";
 import { SlSocialFacebook,SlSocialTwitter,SlSocialInstagram,SlSocialYoutube  } from "react-icons/sl";
@@ -33,12 +32,10 @@ export default function Footer() {
                <SlSocialInstagram />
              </li>
              <li>
-               {" "}
               
                <SlSocialTwitter />
              </li>
              <li>
-               {" "}
              
               <SlSocialYoutube />
              </li>
