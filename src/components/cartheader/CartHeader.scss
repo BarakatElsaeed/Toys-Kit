@@ -1,0 +1,20 @@
+.Top {
+  background-color:#e4e4e4;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0.5rem 4%;
+
+  h5{
+    font-size: 1rem;
+    font-family: cursive;
+  }
+  span{
+    font-size: 0.7rem;
+    cursor: pointer;
+    color: rgb(240, 44, 44);
+    border-bottom: 1px solid rgb(240, 44, 44);
+    margin: 3px;
+  }
+
+}

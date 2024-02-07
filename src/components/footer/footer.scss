@@ -1,0 +1,111 @@
+.Mainsection{
+    background-color:#fbfbfb;
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(144, 143, 143, 0.546);
+
+    .second__{
+        display: flex;
+    }
+
+    .sectionOne{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        img{
+            margin: 1rem;
+            padding-top: 1rem;
+        }
+        
+  
+    
+    
+        .toys-logo{
+            width: 5rem;
+        }
+
+    }
+
+
+
+    .lists__{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        
+        ul{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1rem;
+
+        }
+        ul li {
+            
+            font-size: 0.9rem;
+            padding: 0.5rem;
+            text-align: start;
+            list-style: none;
+            cursor: pointer;
+            transition: all ease 400ms;
+        }
+        ul li:hover .icon__{
+            color: #f5bb0bce;
+            transform: scale(1.4);
+            
+        }
+        ul li:hover{
+            color: #f5bb0bce;
+        }
+        
+        h4{
+            font-size: 1.2rem;
+            font-family: cursive;
+            font-weight: 500;
+            padding-left: 1rem;     
+        }
+        .icon__{
+            font-size: 0.8rem;
+            padding-right: 0.5rem;
+            transition: all ease 400ms;
+        }
+    }
+}
+
+.end-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5rem;
+    background-color:#fbfbfb;
+    width: 100%;
+    h6{
+        font-size: 0.9rem;
+    }
+    .credits{
+        display: flex;
+        width: 10rem;
+        display: flex;
+        width: 10rem;
+        align-items: center;
+        justify-content: space-around;
+    
+    
+    
+        img{
+            width: 2rem;
+           
+          
+        }
+    }
+}
+
+
+// @media only screen and (max-width: 425px){
+
+// }

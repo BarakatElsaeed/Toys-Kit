@@ -1,0 +1,91 @@
+.disc{
+    width: 100%;
+    height: 80vh;
+    background-image: url(./bg-2.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+    h5{
+        font-size: 1.8rem;
+        color: rgba(6, 61, 65, 0.722);
+        font-family:cursive;
+    }
+   .layer{
+    width: 100%;
+    height: 80vh;
+    background-color:#e8b313ce ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+
+    h2{
+
+        font-size: 2.8rem;
+        font-weight: 600;
+        color:black ;
+        font-family: cursive;
+        
+
+    }
+    h3{
+        font-size: 2.8rem;
+        font-weight: 600;
+        color:#000000bf;
+        font-family: cursive;
+    }
+
+    .heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .offer-expires{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        .date{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #ff4f3b;
+            width: 7rem;
+            height: 5.2rem;
+            margin: 1rem;
+            border-radius: 0.5rem;
+
+
+            h6{
+                
+                font-size: 1.8rem;
+                color: white;
+                font-weight: 600;
+            }
+            p{
+                font-size: 1.3rem;
+                color: white;
+                font-weight: 600;
+            }
+        }
+
+    }
+
+    .shop-now{
+        color: black;
+        width: 14.2rem;
+        height: 4rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        border: 0;
+        border-radius: 1.2rem;
+        transition: all ease 400ms;
+
+    }
+    .shop-now:hover{
+        background-color: black;
+        color: white;
+    }
+
+
+   }
+}

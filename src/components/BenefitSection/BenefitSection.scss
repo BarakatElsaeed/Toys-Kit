@@ -1,0 +1,43 @@
+.HeadSection{
+    text-align: center;
+}
+.HeadSection h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-top: 4rem;
+    font-family: cursive;
+}
+
+.main-section{
+    display: flex;
+   justify-content: center;
+   
+}
+.main-section .sec{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-section .sec h4{
+    font-family: nutino;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.main-section .sec p{
+    text-align: center;
+    font-size: 1rem;
+}
+.main-section .sec img {
+    width: 7rem;
+    height: 7rem;
+    padding: 1rem;
+    transition: all ease 200ms;
+
+}
+
+.main-section .sec img:hover{
+    transform: scale(1.4);
+
+}

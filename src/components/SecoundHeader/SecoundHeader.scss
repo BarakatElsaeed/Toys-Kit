@@ -1,0 +1,24 @@
+.header-section {
+  background-image: url("./breadcrum.webp");
+  background-size: cover;
+  background-position: 50%;
+  height: 15rem;
+
+  .filter-img {
+    background-color: #e8b313ce;
+
+    height: 15rem;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    h2{
+      font-family: cursive;
+    }
+  }
+}

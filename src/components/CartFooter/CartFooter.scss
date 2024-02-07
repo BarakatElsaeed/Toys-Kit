@@ -1,0 +1,39 @@
+.foot-total{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 4rem;
+
+    .price{
+        span{
+            font-size: 1rem;
+            font-family: cursive;
+            font-weight: 600;
+        }
+    }
+    .tot{
+        display:flex ;
+        flex-direction: column;
+        span{
+            font-size: 1rem;
+            font-family: cursive;
+            font-weight: 600;
+        }
+
+    }
+}
+.check{
+    width: 10rem;
+    padding: 0.3rem;
+    background-color: #febf00;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 500;
+    font-family: cursive;
+    transition: all ease 300ms;
+
+}
+.check:hover{
+    background-color: black;
+    color: white;
+}

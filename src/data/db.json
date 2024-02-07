@@ -1,0 +1,476 @@
+{
+  "prouducts": [
+    {
+      "id": 1,
+      "title": "Wooden Number",
+      "desc": "A wooden number toy typically consists of wooden blocks or pieces shaped like numbers.These toys are designed to help children learn and recognize numbers, develop counting skills, and understand basic mathematical concepts through play.",
+      "price": 350,
+      "ratting": "/assets/images/rating (3).png",
+      "availability": "Available",
+      "category": "From 2 to 4 years",
+      "img": "/assets/images/1.webp",
+      "color": [
+        "multi -",
+        "green -",
+        "red"
+      ],
+      "size": [
+        "30 cm -",
+        "35 cm -",
+        "45 cm"
+      ],
+      "material": [
+        "wood -",
+        "plastic -",
+        "Eva "
+      ],
+      "sale": "15"
+    },
+    {
+      "id": 2,
+      "title": "Shaper Sorter",
+      "price": 330,
+      "ratting": "/assets/images/rating (3).png",
+      "availability": "Available",
+      "category": "From 2 to 4 years",
+      "img": "/assets/images/2.webp",
+      "color": [
+        "green -",
+        "multi -",
+        "red"
+      ],
+      "size": [
+        "20 cm -",
+        "18 cm -",
+        "22 cm"
+      ],
+      "material": [
+        "plastic -",
+        "Eva -",
+        "wood "
+      ],
+      "state": "Popular",
+      "sale": "12"
+    },
+    {
+      "id": 3,
+      "title": "Toy Blocks",
+      "price": 220,
+      "ratting": "/assets/images/rating (3).png",
+      "availability": "Available",
+      "category": "From 2 to 4 years",
+      "img": "/assets/images/3.webp",
+      "color": [
+        "Green -",
+        " Multi -",
+        " Red -",
+        " Violet "
+      ],
+      "size": [
+        "15 cm -",
+        "20 cm -",
+        "25 cm -",
+        "30 cm "
+      ],
+      "material": [
+        " plastic -",
+        " wood -",
+        " metal -",
+        " ABSplastic"
+      ],
+      "sale": "15"
+    },
+    {
+      "id": 4,
+      "title": "Wooden Tool ",
+      "price": 420,
+      "ratting": "/assets/images/rating (3).png",
+      "availability": "Available",
+      "category": "From 2 to 4 years",
+      "img": "/assets/images/4.webp",
+      "color": [
+        "multi -",
+        "brown -",
+        "blue "
+      ],
+      "size": [
+        "25 cm -",
+        "32 cm -",
+        "40 cm -"
+      ],
+      "material": [
+        "plastic -",
+        "wood -",
+        "Eva"
+      ],
+      "state": "Popular",
+      "sale": "8"
+    },
+    {
+      "id": 5,
+      "title": "Bead Roller ",
+      "price": 360,
+      "ratting": "/assets/images/rating (3).png",
+      "availability": "Available",
+      "category": "From 5 to 7 years",
+      "img": "/assets/images/5.webp",
+      "color": [
+        "multi -",
+        "red -",
+        "green "
+        
+      ],
+      "size": [
+        "24 cm -",
+        "26 cm -",
+        "28 cm -",
+        "30 cm"
+      ],
+      "material": [
+        "wood -",
+        "plastic -",
+        "metal"
+      ],
+      "sale": "15"
+    },
+    {
+      "id": 6,
+      "title": "Colorful Alphabets",
+      "price": 25,
+      "ratting": "/assets/images/rating (3).png",
+      "availability": "Available",
+      "category": "From 5 to 7 years",
+      "img": "/assets/images/6.webp",
+      "color": [
+        "pink -",
+        "green -",
+        "red -",
+        "yellow"
+      ],
+      "size": [
+        "5 cm -",
+        "8 cm -",
+        "10 cm -",
+        "12 cm"
+      ],
+      "material": [
+        "plastic -",
+        "wood -",
+        "metal -",
+        "foam"
+      ],
+      "sale": "0"
+    },
+    {
+      "id": 7,
+      "title": "Colorful Numbers",
+      "price": 30,
+      "ratting": "/assets/images/rating (3).png",
+      "availability": "Available",
+      "category": "From 5 to 7 years",
+      "img": "/assets/images/7.webp",
+      "color": [
+        "green -",
+        "red -",
+        "yellow -",
+        "orange"
+      ],
+      "size": [
+        "4 cm -",
+        "5 cm -",
+        "6 cm -",
+        "8 cm"
+      ],
+      "material": [
+        "wood -",
+        "plastic -",
+        "Eva -",
+        "foam"
+      ],
+      "sale": "0"
+    },
+    {
+      "id": 8,
+      "title": "Abacus",
+      "price": 75,
+      "ratting": "/assets/images/rating (3).png",
+      "availability": "Available",
+      "category": "From 5 to 7 years",
+      "img": "/assets/images/8.webp",
+      "color": [
+        "yellow -",
+        "blue -",
+        "red"
+      ],
+      "size": [
+        "24 cm -",
+        "26 cm -",
+        "28 cm"
+      ],
+      "material": [
+        "wood -",
+        "plastic -",
+        "metal"
+      ],
+      "state": "Popular",
+      "sale": "10"
+    },
+    {
+      "id": 9,
+      "title": "Smart Cube ",
+      "price": 98,
+      "ratting": "/assets/images/rating (3).png",
+      "availability": "Available",
+      "category": "From 8 to 13 years",
+      "img": "/assets/images/9.webp",
+      "color": [
+        "violet -",
+        "yellow -",
+        "orange -",
+        "blue"
+      ],
+      "size": [
+        "10 cm -",
+        "15 cm -",
+        "20 cm -",
+        "25 cm"
+      ],
+      "material": [
+        "plastic -",
+        "wood -",
+        "foam"
+      ],
+      "sale": "0"
+    },
+    {
+      "id": 10,
+      "title": "Shape Puzzles",
+      "price": 160,
+      "ratting": "./assets/images/rating (3).png",
+      "availability": "Available",
+      "category": "From 8 to 13 years",
+      "img": "./assets/images/10.webp",
+      "color": [
+        "multi -",
+        "red -",
+        "yellow -",
+        "pink"
+      ],
+      "size": [
+        "20 cm -",
+        "30 cm -",
+        "40 cm -",
+        "45 cm"
+      ],
+      "material": [
+        "plastic -",
+        "wood -",
+        "Eva -",
+        "foam"
+      ],
+      "sale": "15"
+    },
+    {
+      "id": 11,
+      "title": "Plastic Robert",
+      "price": 240,
+      "ratting": "/assets/images/rating (3).png",
+      "availability": "Available",
+      "category": "From 8 to 13 years",
+      "img": "/assets/images/11.webp",
+      "color": [
+        "blue -",
+        "multi -",
+        "grey -",
+        "red"
+      ],
+      "size": [
+        "15 cm -",
+        "25 cm -",
+        "30 cm -",
+        "35 cm"
+      ],
+      "material": [
+        "plastic -",
+        "metal -",
+        "iron -",
+        "wood"
+      ],
+      "state": "Popular",
+      "sale": "0"
+    },
+    {
+      "id": 12,
+      "title": "Geometric Toy",
+      "price": 85,
+      "ratting": "/assets/images/rating (3).png",
+      "availability": "Available",
+      "category": "From 8 to 13 years",
+      "img": "/assets/images/12.webp",
+      "color": [
+        "yellow -",
+        "green -",
+        "brown -",
+        "blue"
+      ],
+      "size": [
+        "15 cm -",
+        "20 cm -",
+        "25 cm -",
+        "30 cm"
+      ],
+      "material": [
+        "wood -",
+        "plastic -",
+        "Eva -",
+        "foam "
+      ],
+      "state": "Popular",
+      "sale": "15"
+    },
+    {
+      "id": 13,
+      "title": "Wooden Busy",
+      "price": 234,
+      "ratting": "/assets/images/rating (3).png",
+      "availability": "Available",
+      "category": "From 14 to Up",
+      "img": "/assets/images/13.webp",
+      "color": [
+        "multi -",
+        "green -",
+        "yellow -",
+        "red"
+      ],
+      "size": [
+        "20 cm -",
+        "25 cm -",
+        "30 cm -",
+        "35 cm"
+      ],
+      "material": [
+        "wood -",
+        "plastic -",
+        "metal -",
+        "foam"
+      ],
+      "sale": "15"
+    },
+    {
+      "id": 14,
+      "title": "Wood Tower",
+      "price": 150,
+      "ratting": "/assets/images/rating (3).png",
+      "availability": "Available",
+      "category": "From 14 to Up",
+      "img": "./assets/images/14.webp",
+      "color": [
+        "brown -",
+        "multi -",
+        "blue -",
+        "red"
+      ],
+      "size": [
+        "20 cm -",
+        "30 cm -",
+        "35 cm -",
+        "40 cm"
+      ],
+      "material": [
+        "wood -",
+        "plastic -",
+        "metal -",
+        "foam"
+      ],
+      "sale": "0"
+    },
+    {
+      "id": 15,
+      "title": "Toy House",
+      "price": 100,
+      "ratting": "/assets/images/rating (3).png",
+      "availability": "Available",
+      "category": "From 14 to Up",
+      "img": "/assets/images/15.webp",
+      "color": [
+        "green -",
+        "multi -",
+        "red -",
+        "pink"
+      ],
+      "size": [
+        "20 cm -",
+        "25 cm -",
+        "30 cm -",
+        "35 cm"
+      ],
+      "material": [
+        "plastic -",
+        "wood -",
+        "Eva -",
+        "foam"
+      ],
+      "sale": "0"
+    },
+    {
+      "id": 16,
+      "title": "Wooden Puzzle ",
+      "price": 246,
+      "ratting": "/assets/images/rating (3).png",
+      "availability": "Available",
+      "category": "From 14 to Up",
+      "img": "/assets/images/16.webp",
+      "color": [
+        "multi -",
+        "brown -",
+        "orange -",
+        "black"
+      ],
+      "size": [
+        "25 cm -",
+        "30 cm -",
+        "35 cm -",
+        "40 cm"
+      ],
+      "material": [
+        "wood -",
+        "plastic -",
+        "foam -",
+        "metal"
+      ],
+      "sale": "15"
+    }
+  ],
+  "users": [
+    {
+      "email": "mohamed@gamil.com",
+      "password": "123456",
+      "name": "mohamed",
+      "id": 1
+    },
+    {
+      "email": "bekoo_bas@yahoo.com",
+      "password": "123456789",
+      "name": "barakat",
+      "id": 2
+    },
+    {
+      "email": "mmm@gmail",
+      "password": "123456",
+      "name": "aaaa",
+      "id": 3
+    },
+    {
+      "email": "ahmed@gmail.com",
+      "password": "123456789",
+      "name": "ahmed",
+      "id": 4
+    },
+    {
+      "email": "aaaaaa@gmail.com",
+      "password": "12345678",
+      "name": "aaaaaa",
+      "id": 5
+    }
+  ]
+}

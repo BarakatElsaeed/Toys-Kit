@@ -1,0 +1,109 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16rem;
+    border: 1px dashed gray;
+
+    .sale{
+        background-color: #febf00;
+        width: 2rem;
+        height: 2rem;
+        border-radius:50% ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0.4rem;
+        left: 0.5rem;
+        font-size: 0.7rem;
+        font-weight: 700;
+        font-family: cursive;
+    }
+
+    .cato{
+        background-color: rgba(245, 96, 96, 0.86);
+        padding: 0.2rem;
+        border-radius: 0.2rem;
+        font-size: 0.9rem;
+        font-weight: 600;
+        font-family: cursive;
+        color: white;
+        width: 100%;
+        text-align: center;
+        
+
+    }
+
+    img{
+        
+        width: 9.37rem;
+        transition: all ease 200ms;
+       
+        
+
+    }
+
+    // img:hover{
+    //     transform: scale(1.1);
+
+    // }
+    .tit{
+        text-decoration: none;
+    }
+    h5{
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding-top: 1rem;
+        font-family: cursive;
+      
+    }
+
+    h6{
+        font-size: 0.9rem;
+        color: rgb(88, 85, 82);
+
+    }
+    #img{
+        position: relative;
+        background-color: #f9f9f9;
+        width: 15.6rem;
+        border-radius: 0.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    button{
+        width: 8rem;
+        height: 2rem;
+        margin: 0.8rem;
+        border: 0;
+        background-color: #febf00;
+        border-radius: 0.4rem;
+        transition: all ease 500ms;
+        font-size: 1rem;
+        
+        
+    }
+    button:hover{
+        background-color:rgb(15, 183, 15) ;
+        color: white;
+    }
+    .wishlist{
+        width: 2rem;
+        height: 2rem;
+        border-radius: 25%;
+        text-align: center;
+     
+    }
+    .wishlist:hover{
+        background-color: rgb(231, 6, 6);
+    }
+    
+}
