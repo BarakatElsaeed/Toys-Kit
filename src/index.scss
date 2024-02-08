@@ -54,11 +54,73 @@ body {
   }
 }
 
-@media screen and (min-width: 100px) {
+@media screen and (max-width: 220px) {
   /* font at xs */
   html {
     font-size: 10px !important;
   }
+  .mainheader{
+    justify-content: flex-start !important;
+    gap: 2.4rem;
+  }
+  .firstsection{
+   background-position: 24% !important;
+   .text {
+    width: auto !important;
+    height: auto !important;
+    margin: 0.9rem;
+   }
+  }
+  .HeadSection {
+    text-align: center;
+    padding: 1.5rem;
+    h3{
+      font-size: 1.5rem !important;
+    }
+}
+.main-section{
+  flex-direction: column !important;
+}
+.The-main {
+  display: none !important;
+}
+.BigSection{
+
+display: none !important;
+
+}
+.Popular-Products{
+  display: none;
+
+}
+.disc{
+  .layer{
+    h2{
+      font-size: 1.9rem !important;
+    }
+    h3{
+      font-size: 1.4rem !important;
+      font-weight: 300 !important;
+    }
+  }
+ 
+}
+
+ .offer-expires {
+  flex-direction: column !important;
+  align-items: center !important;
+ 
+ }
+ .head{
+  font-size: 1.8rem !important;
+  font-weight: 400 !important;
+ }
+ .customer-div{
+  flex-direction: column;
+ }
+ .end-bar{
+  flex-direction: column;
+ }
 }
 
 @media screen and (min-width: 768px) {
