@@ -55,13 +55,28 @@ body {
 }
 
 @media screen and (max-width: 220px) {
+
+  
   /* font at xs */
   html {
     font-size: 10px !important;
   }
+
+  // homepage xs start 
   .mainheader{
-    justify-content: flex-start !important;
-    gap: 2.4rem;
+    justify-content: center !important;
+    gap: 1.4rem;
+    
+    img{
+    width: 5.5rem !important;
+    height: 2rem !important;
+    }
+    .btn{
+      width: 3rem !important;
+    height: 3rem !important;
+    border-radius: 50%;
+    margin: 0 !important;
+    }
   }
   .firstsection{
    background-position: 24% !important;
@@ -128,6 +143,78 @@ display: none !important;
  .end-bar{
   flex-direction: column;
  }
+
+ // homepage xs end
+
+//  about start
+.TheSecond{
+  height: 45vh !important;
+  flex-direction: column !important;
+  align-items:center !important;
+  // display: none !important;
+  .the-left {
+    h3{
+      font-size: 1.2rem !important;
+     
+    }
+    
+    p{
+      display: none !important;
+    }
+    h6{
+      display: none !important;
+    }
+  }
+  .the-right {
+    img{
+      width: 18rem;
+    }
+  }
+}
+.third-section{
+  display: none !important; 
+}
+ 
+ .fourth .last{
+  flex-direction: column !important;
+ }
+ .fourth .thefive .all-imges{
+  flex-direction: column !important;
+ }
+ .small-imgs{
+  align-items: center !important;
+ }
+ .big-img {
+  img{
+    width: 18rem !important;
+  }
+
+ } 
+ .fourth .fourth-head{
+  h2{
+    font-size: 1.2rem !important;
+    font-weight: 400 !important;
+  }
+  p{
+    display: none !important;
+  }
+ }
+
+ .fourth .fourth-end{
+  flex-direction: column !important;
+  .end-one{
+    width: 100% !important;
+  }
+
+ }
+//  about end 
+
+// contact start 
+.main-contact{
+  flex-direction: column !important;
+  gap: 1.1rem;
+
+}
 }
 
 @media screen and (min-width: 768px) {
