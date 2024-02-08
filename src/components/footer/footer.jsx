@@ -18,7 +18,7 @@ export default function Footer() {
     <>
       <div className="Mainsection">
         <div className="sectionOne">
-          <img src={mainlogo} alt="logo" />
+          <img className="Logo" src={mainlogo} alt="logo" />
           <div className="lists__">
            
            <ul>
@@ -46,8 +46,8 @@ export default function Footer() {
         </div>
         <div className="second__">
 
-          <div className="lists__">
-            <h4>about</h4>
+          <div className="lists_about">
+            <h4>About</h4>
             <ul>
               <li>
                 {" "}
@@ -72,7 +72,10 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="lists__">
+    
+        </div>
+        <div className="third__">
+        <div className="lists_contact">
             <h4>contact</h4>
             <ul>
               <li>
