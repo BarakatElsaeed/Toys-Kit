@@ -131,6 +131,12 @@
 }
 
 
-// @media only screen and (max-width: 425px){
+@media only screen and (max-width: 425px){
 
-// }
+    .Mainsection{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+}
