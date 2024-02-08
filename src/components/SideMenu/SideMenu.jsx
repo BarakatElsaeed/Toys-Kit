@@ -17,7 +17,6 @@ export default function SideMenu(){
             <nav className="Navagation">
                     <NavLink className='lis' to="/">Home</NavLink>
                     <NavLink className='lis' to="/shop">Shop</NavLink>
-                
                     <NavLink className='lis' to="/about">About</NavLink>
                     <NavLink className='lis' to="/services"> services</NavLink>
                     <NavLink className='lis' to="/contact">contact </NavLink>
