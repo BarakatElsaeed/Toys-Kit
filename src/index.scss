@@ -287,15 +287,46 @@ display: none !important;
       display: none !important;
     }
   }
+  .main-contact{
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1.2rem;
+  }
+  .end-bar{
+    flex-direction: column !important;
+  }
 
 }
-
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 401px) and (max-width: 768px) {
   /* font at md */
   html {
     font-size: 14px !important;
   }
+  .mainheader{
+    background-color: aqua !important;
+  }
+  .text {
+    width: auto !important;
+    height: auto !important;
+    margin: 0.9rem;
+  }
+  .main-section {
+    flex-direction: column !important;
+  }
+  .The-main .right-div {
+    ul{
+      display: none !important;
+    }
+    .last {
+      display: none !important;
+    }
+  }
+  .Mainsection{
+    flex-direction: column !important;
+  }
 }
+
+
 
 @media screen and (min-width: 1200px) {
   /* font at lg */

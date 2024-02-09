@@ -6,6 +6,7 @@ import Swal from "sweetalert2";
 
 export default function LogoutBtn() {
     const [,setauth]=useRecoilState(authData);
+    
     function handelLogout(result){
         Swal.fire({
             title: "Are you sure?",
@@ -25,8 +26,11 @@ export default function LogoutBtn() {
               setauth({
                 isauth:false,
                 userId:null
+            
             })
+          
             localStorage.removeItem('loggedInUser')
+          
 
 
             }
