@@ -118,7 +118,6 @@
         "multi -",
         "red -",
         "green "
-        
       ],
       "size": [
         "24 cm -",
@@ -471,6 +470,12 @@
       "password": "12345678",
       "name": "aaaaaa",
       "id": 5
+    },
+    {
+      "email": "bekoo_bas@yahoo.com",
+      "password": "123456789",
+      "name": "barakat",
+      "id": 6
     }
   ]
 }

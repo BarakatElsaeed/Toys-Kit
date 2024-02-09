@@ -3,10 +3,11 @@ import { Button } from 'react-bootstrap'
 import { useRecoilState } from 'recoil';
 import { authData } from '../../store';
 import Swal from "sweetalert2";
+import { useNavigate } from 'react-router-dom';
 
 export default function LogoutBtn() {
     const [,setauth]=useRecoilState(authData);
-    
+    const navigate = useNavigate();
     function handelLogout(result){
         Swal.fire({
             title: "Are you sure?",
@@ -30,6 +31,7 @@ export default function LogoutBtn() {
             })
           
             localStorage.removeItem('loggedInUser')
+            navigate("/");
           
 
 
