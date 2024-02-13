@@ -10,7 +10,7 @@ import Feedback from "../../components/Feedback/Feedback";
 
 export default function Homepage() {
   return (
-    <div className="Home">
+    <div className="Home page-content">
       <div className="firstsection">
         <div className="filter">
           <div className="text wow animate__animated  animate__flash animate__delay-100ms">

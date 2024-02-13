@@ -49,6 +49,7 @@ export default function CheckOut() {
 
   return (
     <>
+    <div className="page-content">
       <div className="header__">
         <SecoundHeader name="CheckOut" />
       </div>
@@ -111,20 +112,35 @@ export default function CheckOut() {
           <div className="last-cart">
             <CartList />
             <div className="checkout-total">
+              <div className="price">
+
               <h5>
                 price
 
+            
+
+              </h5>
               <span>${totalCart}</span>
 
-              </h5>
+              </div>
+
+              <div className="price">
+                
               <h5>
-                shipping <span>$20</span>{" "}
+                shipping {" "}
               </h5>
+              <span>$20</span>
+
+              </div>
+
+              <div className="price">
               <h5>
                 Total price
-
-              <span>${totalWithShipping}</span>
               </h5>
+              <span>${totalWithShipping}</span>
+              </div>
+            
+              
 
               
             </div>
@@ -136,6 +152,7 @@ export default function CheckOut() {
           </div>
         </Form>
       </Formik>
+      </div>
     </>
   );
 }

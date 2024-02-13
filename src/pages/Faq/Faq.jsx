@@ -15,6 +15,7 @@ export default function Faq() {
   
   return (
     <>
+    <div className="page-content">
       <div className="header__">
         <SecoundHeader name="FAQ" />
       </div>
@@ -150,6 +151,7 @@ export default function Faq() {
             augue neque.
           </p>
         </div>
+      </div>
       </div>
     </>
   );

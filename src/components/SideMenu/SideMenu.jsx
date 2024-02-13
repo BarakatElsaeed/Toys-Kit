@@ -15,11 +15,11 @@ export default function SideMenu(){
                  SideMenuIndex == true ? setSideMenuIndex(false): setSideMenuIndex(true)
             }} icon={faSquareXmark} />
             <nav className="Navagation">
-                    <NavLink className='lis' to="/">Home</NavLink>
-                    <NavLink className='lis' to="/shop">Shop</NavLink>
-                    <NavLink className='lis' to="/about">About</NavLink>
-                    <NavLink className='lis' to="/services"> services</NavLink>
-                    <NavLink className='lis' to="/contact">contact </NavLink>
+                    <NavLink className='lis' reloadDocument to="/">Home</NavLink>
+                    <NavLink className='lis' reloadDocument to="/shop">Shop</NavLink>
+                    <NavLink className='lis'  reloadDocument to="/about">About</NavLink>
+                    <NavLink className='lis' reloadDocument to="/services"> services</NavLink>
+                    <NavLink className='lis' reloadDocument to="/contact">contact </NavLink>
           
                 </nav>
 

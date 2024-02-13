@@ -22,7 +22,7 @@ const Wishlist = () => {
 
   return (
     <>
-    
+    <div className='page-content'>
     <div className="header__">
     <SecoundHeader name="Wishlist" />
   </div>
@@ -71,6 +71,10 @@ const Wishlist = () => {
   )
 }
 
+
+    </div>
+    
+   
   
     </>
   )

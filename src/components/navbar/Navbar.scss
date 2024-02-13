@@ -9,7 +9,7 @@
   top: 0;
   z-index: 1000;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0);
-  
+  height: 70px;
 
   .i {
     cursor: pointer;
@@ -67,7 +67,7 @@
       position: absolute;
       bottom: 14px;
       border-radius: 30%;
-      left: 17px;
+      left: 11px;
       font-family: cursive;
       background: #0000004f;
     }
@@ -135,6 +135,15 @@
   }
 }
 
+@media screen and (max-width: 220px){
+  .cart__ {
+    .qut__{
+      position: absolute !important;
+      left: 10 !important;
+      bottom: 9 !important;
+    }
 
+  } 
+}
 
 

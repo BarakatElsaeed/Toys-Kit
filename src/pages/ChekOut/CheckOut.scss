@@ -37,11 +37,17 @@
         font-weight: 600;
     }
    
+   
+       
+    }
+    .price{
+        display: flex;
+    align-items: center;
+    gap: 2rem;
     span{
         padding-left: 1rem;
         font-size: 13px;
     }
-       
     }
 
 }

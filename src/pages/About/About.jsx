@@ -24,7 +24,8 @@ import {
 export default function About() {
   return (
     <>
-      <div className="header__">
+    <div className="page-content">
+    <div className="header__">
         <SecoundHeader name="About" />
       </div>
       <div className="TheSecond">
@@ -200,6 +201,9 @@ export default function About() {
 
         </div>
       </div>
+
+    </div>
+      
     </>
   );
 }

@@ -16,7 +16,7 @@ import {
 
 const Services = () => {
   return (
-    <div className="servies-card">
+    <div className="servies-card page-content">
       <SecoundHeader name= "services" />
       <div className="row sceond-section">
         <div className="col-6">

@@ -45,7 +45,8 @@ export default function Login() {
   }
   return (
     <>
-      <div className="header__">
+    <div className="page-content">
+    <div className="header__">
         <SecoundHeader name="Login" />
       </div>
 
@@ -94,6 +95,10 @@ export default function Login() {
           </div>
         </Form>
       </Formik>
+   
+
+    </div>
     </>
+    
   );
 }

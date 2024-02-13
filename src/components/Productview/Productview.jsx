@@ -58,11 +58,13 @@ export default function ProductView() {
     fetch('http://localhost:3004/prouducts') 
       .then(response => response.json())
       .then(data => {
-        const foundProduct = data.find(item => item.id === parseInt(id));
+        const foundProduct = data.find(item => item.id == parseInt(id));
+        console.log(foundProduct);
         setProduct(foundProduct);
       })
       .catch(error => console.error('Error fetching products:', error));
   }, [id]);
+  console.log(product);
 
   if (!product) {
     return <div>Loading...</div>;
@@ -70,6 +72,7 @@ export default function ProductView() {
 
   return (
     <>
+    <div className="page-content">
     <div className="header__">
         <SecoundHeader name="product-details" />
       </div>
@@ -108,6 +111,7 @@ export default function ProductView() {
 </div>
 
 </div>
+      </div>
       </div>
   
     </>

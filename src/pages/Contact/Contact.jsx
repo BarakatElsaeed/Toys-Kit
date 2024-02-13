@@ -10,6 +10,7 @@ import SecoundHeader from "../../components/SecoundHeader/SecoundHeader";
 export default function Contact() {
   return (
     <>
+    <div className="page-content">
      <div className="header__">
         <SecoundHeader name="Contact" />
       </div>
@@ -58,6 +59,7 @@ export default function Contact() {
           ></textarea>
           <button type="submit">Send</button>
         </form>
+      </div>
       </div>
     </>
   );

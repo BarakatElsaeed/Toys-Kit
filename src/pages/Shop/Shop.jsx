@@ -15,7 +15,7 @@ export default function Shop() {
   }, []);
 
   return (
-    <>
+    <><div className="page-content">
       <div className="header__">
         <SecoundHeader name="Shop" />
       </div>
@@ -30,6 +30,7 @@ export default function Shop() {
           ))}
         </div>
       </div>
-    </>
+      </div>
+      </>
   );
 }

@@ -20,6 +20,7 @@ import Notlogedin from "./components/protectedRoutes/Notlogedin";
 import Islogedin from "./components/protectedRoutes/Islogedin";
 import Productview from "./components/Productview/Productview";
 import CheckOut from "./pages/ChekOut/CheckOut";
+import ScrollToTop from "./components/scrollnav/ScrollToTop";
 
 function App() {
   const [CurrentWidth, setCurrentWidth] = useRecoilState($Current_Width);
@@ -36,6 +37,7 @@ function App() {
       }}
     >
       <BrowserRouter>
+      <ScrollToTop />
         <Navbar />
 
         <Routes>
@@ -46,7 +48,7 @@ function App() {
             <Route path="/about" element={   <About /> } />
             <Route path="/services" element={  <Services />  } />
             <Route path="/contact" element={  <Contact />  } />
-            <Route path="/checkout" element={  <CheckOut />  } />
+            <Route path="/checkout" element={ <Islogedin> <CheckOut /> </Islogedin>    } />
             <Route path="/product-details/:id" element={  <Productview  />  } />
             <Route path="/cart" element={ <Islogedin> <Cart /> </Islogedin> } />
             <Route path="/wishlsit" element={ <Islogedin> <WishList /> </Islogedin> } />
