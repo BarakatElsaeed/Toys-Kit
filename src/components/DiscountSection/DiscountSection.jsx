@@ -60,7 +60,7 @@ export default function DiscountSection() {
             </Link>
           </>
         )}
-        <Countdown date={"2024-02-16T01:02:03"} renderer={renderer} />,
+        <Countdown date={"2025-02-16T01:02:03"} renderer={renderer} />,
       </div>
     </div>
   );
